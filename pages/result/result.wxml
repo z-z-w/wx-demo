@@ -1,0 +1,14 @@
+<!--pages/result/result.wxml-->
+<view class='container'>
+  <text>您的得分为:</text>
+  <view class='score'>
+    V选项：{{result.V}}
+  </view>
+  <view class='score'>
+    A选项：{{result.A}}
+  </view>
+  <view class='score'>
+    K选项：{{result.K}}
+  </view>
+  <text class="type">{{result.Type}}</text>
+</view>

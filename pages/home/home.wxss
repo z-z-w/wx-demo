@@ -1,0 +1,32 @@
+/* pages/home/home.wxss */
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.question{
+  width: 100%;
+  line-height: 50rpx;
+  font: bolder;
+}
+
+.answer{
+  width: 100%;
+  margin-top: 80rpx;
+}
+
+.answer button{
+  line-height: 80rpx;
+  text-align: left;
+  font-size: 40rpx;
+}
+
+.page{
+  width: 100%;
+  margin-top: 100rpx;
+}
+
+.next{
+  float: right;
+}

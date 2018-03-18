@@ -1,0 +1,10 @@
+/* pages/result/result.wxss */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.container text, .score, .type{
+  width: 100%;
+  margin-top: 50rpx;
+  text-align: center; 
+}

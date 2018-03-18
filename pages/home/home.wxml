@@ -1,0 +1,8 @@
+<view class='container'>
+  <view class='question'>
+    {{i}}、{{question.question}}
+  </view>
+  <view class='answer' wx:for='{{answer}}' wx:key="index">
+    <button data-select="{{item}}" bindtap='nextQues'>{{item}}</button>
+  </view>
+</view>
